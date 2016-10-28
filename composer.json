@@ -1,0 +1,8 @@
+{
+    "require": {
+    },
+    "require-dev": {
+        "fzaninotto/faker": "^1.6",
+        "robmorgan/phinx": "^0.6.5"
+    }
+}

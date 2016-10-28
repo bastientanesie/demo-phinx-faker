@@ -1,0 +1,30 @@
+{
+    "paths": {
+        "migrations": "%%PHINX_CONFIG_DIR%%/install/database/migration",
+        "seeds": "%%PHINX_CONFIG_DIR%%/install/seed"
+    },
+    "environments": {
+        "default_migration_table": "phinx_log",
+        "default_database": "development",
+        "development": {
+            "adapter": "mysql",
+            "host": "localhost",
+            "name": "my_db_name",
+            "user": "my_db_user",
+            "pass": "my_db_password",
+            "port": "3306",
+            "charset": "utf8",
+            "collation": "utf8_unicode_ci"
+        },
+        "production": {
+            "adapter": "mysql",
+            "host": "localhost",
+            "name": "my_db_name",
+            "user": "my_db_user",
+            "pass": "my_db_password",
+            "port": "3306",
+            "charset": "utf8",
+            "collation": "utf8_unicode_ci"
+        }
+    }
+}
