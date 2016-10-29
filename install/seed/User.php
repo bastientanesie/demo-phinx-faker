@@ -2,7 +2,7 @@
 
 use Phinx\Seed\AbstractSeed;
 
-class UserTable extends AbstractSeed
+class User extends AbstractSeed
 {
     /**
      * Run Method.
