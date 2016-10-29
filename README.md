@@ -2,7 +2,7 @@
 
 This repo is simply a playground for me to try [Phinx](https://github.com/robmorgan/phinx) databse migration library, with [Faker](https://github.com/fzaninotto/Faker) to make database seeding easier.
 
-## Install
+## Installation
 
 This demo requires [Composer](https://getcomposer.org/). Run `composer install` to download all required dependencies.
 
@@ -21,3 +21,7 @@ To add some fake data into your database, you can use the following command :
 
 The `-s User -s Post` parameters tells Phinx to explicitly run the `User` seed first, then the `Post` seed.  
 We do this in order to ensure that the `User` table contains some data, so that we can use those to fullfil the foreign key `Post.idUser`.
+
+## Doctrine Migration alternative
+
+You can find a [Doctrine Migration](https://github.com/doctrine/migrations) version of this demo at [bastientanesie/demo-doctrine-migration](https://github.com/bastientanesie/demo-doctrine-migration), without database seeding and Faker.
